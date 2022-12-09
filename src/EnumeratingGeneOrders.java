@@ -55,8 +55,8 @@ public class EnumeratingGeneOrders {
             // Add space between each number
             String[] split = answer.split("");
             // Print the permutation
-            for (int i = 0; i < split.length; i++) {
-                System.out.print(split[i] + " ");
+            for (String s : split) {
+                System.out.print(s + " ");
             }
             System.out.println();
             return;
